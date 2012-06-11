@@ -1,3 +1,5 @@
+include_recipe "libgpg-error"
+
 packages = Array.new
 
 case node[:lsb][:codename]
